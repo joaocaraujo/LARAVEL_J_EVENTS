@@ -19,6 +19,7 @@
                     <div class="card-body">
                         <p class="card-date">10/08/2022</p>
                         <h5 class="card-title">{{$event->title}}</h5>
+                        <p class="card-locate">{{$event->city}}</p>
                         <p class="card-participants">10 Participants</p>
                         <a href="#" class="btn btn-primary">More...</a>
                     </div>
