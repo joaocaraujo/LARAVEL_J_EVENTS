@@ -199,6 +199,17 @@ margin-bottom: 30px;
 #info-container #event-submit {
     margin: 20px 0;
 }
+
+/*itens list*/
+#items-list {
+    list-style: none;
+    padding: 0;
+}
+
+#items-list li{
+    display: flex;
+}
+
 /*footer*/
 
 footer {
