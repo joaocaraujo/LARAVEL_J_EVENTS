@@ -21,7 +21,7 @@
                         <h5 class="card-title">{{$event->title}}</h5>
                         <p class="card-locate">{{$event->city}}</p>
                         <p class="card-participants">10 Participants</p>
-                        <a href="#" class="btn btn-primary">More...</a>
+                        <a href="/events/{{ $event->id}}" class="btn btn-primary">More...</a>
                     </div>
                 </div>
             @endforeach
