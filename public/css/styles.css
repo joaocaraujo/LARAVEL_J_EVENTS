@@ -156,7 +156,8 @@ margin-bottom: 30px;
 
 #event-create-container input,
 #event-create-container select,
-#event-create-container textarea {
+#event-create-container textarea,
+#event-create-container image {
     font-size: 12px;
 }
 /*footer*/

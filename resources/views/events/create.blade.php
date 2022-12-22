@@ -4,7 +4,7 @@
 
     <div id="event-create-container" class="col-md-6 offset-md-3">
         <h1>Create your event</h1>
-        <form action="/events" method="POST">
+        <form action="/events" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
                 <label for="title">Event:</label>
@@ -32,6 +32,10 @@
             <div class="form-group">
                 <label for="title">Hour:</label>
                 <input type="time" class="form-control" id="hour" name="hour" placeholder="Event time">
+            </div>
+            <div class="form-group">
+                <label for="image">Event Image:</label>
+                <input type="file" id="image" name="image" class="form-control-file">
             </div>
             <input type="submit" class="btn btn-primary" value="Criar Evento">
       </form>
