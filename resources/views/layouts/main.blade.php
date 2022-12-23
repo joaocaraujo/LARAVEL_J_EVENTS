@@ -19,8 +19,8 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a href="" class="navbar-brand">
-                        <img src="/img/logo.png" alt="J EVENTS">
+                    <a href="/" class="navbar-brand">
+                        <img href="/" src="/img/logo.png" alt="J EVENTS">
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">

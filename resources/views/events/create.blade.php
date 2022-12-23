@@ -16,7 +16,7 @@
             </div>
             <div class="form-group">
                 <label for="title">City:</label>
-                <input type="text" class="form-control" id="city" name="city" placeholder="Event location">
+                <input type="text" class="form-control" id="city" name="city" placeholder="Ex: Cupertino, Califórnia">
             </div>
             <div class="form-group">
                 <label for="title">Is the event private?</label>
@@ -26,8 +26,8 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="title">Date:</label>
-                <input type="date" class="form-control" id="date" name="date" placeholder="Event day">
+                <label for="date">Date:</label>
+                <input type="date" class="form-control" id="date" name="date">
             </div>
             <div class="form-group">
                 <label for="title">Hour:</label>
@@ -67,7 +67,7 @@
                     <input type="checkbox" name="items[]" value="Wifi"> Wifi
                 </div>
             </div>
-            <input type="submit" class="btn btn-primary" value="Criar Evento">
+            <input type="submit" class="btn btn-primary" value="Create">
       </form>
     </div>
 
