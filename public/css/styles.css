@@ -213,6 +213,17 @@ margin-bottom: 30px;
 #description-container {
     margin-top: 50px;
 }
+
+/*dashboard*/
+.dashboard-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
 /*footer*/
 
 footer {
