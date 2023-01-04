@@ -224,6 +224,11 @@ margin-bottom: 30px;
     width: 25%;
 }
 
+.dashboard-events-container form {
+    display: inline-block;
+    padding: 0px 18px;
+
+}
 /*footer*/
 
 footer {
