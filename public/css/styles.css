@@ -229,6 +229,13 @@ margin-bottom: 30px;
     padding: 0px 18px;
 
 }
+
+/*edit page*/
+
+.img-preview {
+    width: 180px;
+    margin-top: 20px;
+}
 /*footer*/
 
 footer {
